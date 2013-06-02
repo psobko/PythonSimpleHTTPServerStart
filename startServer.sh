@@ -7,7 +7,7 @@ existing_pid=$(ps aux | grep '[p]ython -m SimpleHTTPServer' | awk '{print $2}')
 if [[ ! -z "$existing_pid" ]]
 then
   echo $existing_pid
-	echo "WARNING: exiting SimpleHTTPServer running"
+	echo "WARNING: SimpleHTTPServer already running"
 	echo "         kill it? [y]/[n]"
 	read answer
 	if [[ $answer = y ]]
