@@ -7,5 +7,6 @@ I needed a quick and simple way to get around cross-origin XMLHttpRequest's same
 
 ######Features
 - Detects if the server is already running beforehand and prompts to kill the process
-- Initializes the server and prompts to load it in the default browser
+- Initializes the server in the current directory
+- Prompts the user to load the server's location in the default browser
 - Allows the user to shut down the server when it's no longer required
