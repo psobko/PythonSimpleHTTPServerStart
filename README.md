@@ -1,4 +1,4 @@
-Python-SimpleHTTPServer-BASH-Script
+PythonSimpleHTTPServerStart
 ===================================
 
 A BASH script for running and shutting down python's SimpleHTTPServer with some bonus features.
